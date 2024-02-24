@@ -1,0 +1,28 @@
+brew "mas"
+brew "jq"
+brew "neovim"
+brew "httpie"
+brew "thefuck"
+brew "eza"
+brew "bat"
+
+# language
+brew "pyenv"
+brew "nvm"
+
+# cask
+cask "zed"
+cask "arc"
+cask "warp"
+cask "notion"
+cask "todoist"
+cask "discord"
+cask "spotify"
+cask "httpie"
+# cask "postman"
+# cask "google-chrome"
+cask "intellij-idea"
+cask "karabiner-elements"
+
+# mas
+mas "KakaoTalk", id: 869223134
