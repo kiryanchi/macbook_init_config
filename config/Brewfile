@@ -26,3 +26,4 @@ cask "karabiner-elements"
 
 # mas
 mas "KakaoTalk", id: 869223134
+mas "Magnet", id: 441258766
