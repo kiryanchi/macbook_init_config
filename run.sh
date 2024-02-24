@@ -1,16 +1,13 @@
+# Zsh
+cp ./config/.zshrc ~/.zshrc
+
 # Install Brew
 if ! (which brew >/dev/null); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 # Homebrew
 brew bundle --file=./config/Brewfile
-
-# Development Tools
-xcode-select --install
 
 # Git
 git config --global user.name "kiryanchi"
@@ -22,9 +19,6 @@ cp ./config/karabiner.json ~/.config/karabiner/karabiner.json
 
 # Font
 cp -a ./font/. ~/Library/Fonts
-
-# Zsh
-cp ./config/.zshrc ~/.zshrc
 
 
 
@@ -46,7 +40,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "1" && killall F
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 # Keyboard
-# 키 입력 딜레이 
+# 키 입력 딜레이
 defaults write -g InitialKeyRepeat -int 10
 
 # 키 반복 입력 속도
@@ -69,9 +63,3 @@ defaults write com.apple.AppleMultitouchTrackpad "FirstClickThreshold" -int "0"
 
 # 트랙패드 세손가락 드래그
 defaults write com.apple.AppleMultitouchTrackpad "TrackpadThreeFingerDrag" -bool "true"
-
-# macOS
-# 모션 줄이기
-defaults write com.apple.Accessibility ReduceMotionEnabled -bool true
-defaults write com.apple.universalaccess reduceMotion -bool true
-
