@@ -63,3 +63,6 @@ defaults write com.apple.AppleMultitouchTrackpad "FirstClickThreshold" -int "0"
 
 # 트랙패드 세손가락 드래그
 defaults write com.apple.AppleMultitouchTrackpad "TrackpadThreeFingerDrag" -bool "true"
+
+# 키보드 꾹 누르기 허용 (Vim)
+defaults write -g ApplePressAndHoldEnabled 0
