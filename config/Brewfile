@@ -9,7 +9,7 @@ brew "bat"
 # language
 brew "pyenv"
 brew "nvm"
-brew "yarn"
+brew "yarn", args: ["ignore-dependencies"]
 
 # cask
 cask "zed"
