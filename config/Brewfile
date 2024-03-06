@@ -9,6 +9,7 @@ brew "bat"
 # language
 brew "pyenv"
 brew "nvm"
+brew "yarn"
 
 # cask
 cask "zed"
