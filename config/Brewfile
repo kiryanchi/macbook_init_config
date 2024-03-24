@@ -10,6 +10,8 @@ brew "bat"
 brew "pyenv"
 brew "nvm"
 brew "yarn", args: ["ignore-dependencies"]
+brew "go"
+brew "d2"
 
 # cask
 cask "zed"
