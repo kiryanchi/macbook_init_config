@@ -7,25 +7,20 @@ brew "eza"
 brew "bat"
 
 # language
-brew "pyenv"
-brew "nvm"
-brew "yarn", args: ["ignore-dependencies"]
-brew "go"
+brew "asdf"
 brew "d2"
 
 # cask
-cask "zed"
+cask "visual-studio-code"
 cask "arc"
 cask "warp"
 cask "notion"
-cask "todoist"
+cask "notion-calendar"
 cask "discord"
-cask "spotify"
 cask "httpie"
-# cask "postman"
-# cask "google-chrome"
 cask "intellij-idea"
 cask "karabiner-elements"
+cask "gitify"
 
 # mas
 mas "KakaoTalk", id: 869223134
